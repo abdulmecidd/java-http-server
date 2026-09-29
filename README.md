@@ -1,0 +1,1 @@
+This project is not an advanced http server, its just a hobby project to learn structure of networking and java.

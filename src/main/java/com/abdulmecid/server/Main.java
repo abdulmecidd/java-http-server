@@ -10,7 +10,6 @@ public class Main {
 
             server.createContext("/", exchange -> {
                 System.out.println(exchange.getRequestMethod());
-                System.out.println(exchange.getRequestBody());
                 System.out.println(exchange.getRequestHeaders());
                 System.out.println(exchange.getRequestURI());
                 exchange.sendResponseHeaders(200, 0);
